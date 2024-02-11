@@ -1,0 +1,24 @@
+table {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.drag {
+  background-color: maroon;
+  border: 2px solid black;
+  text-align: center;
+  padding: 2px;
+  margin: 3px;
+  color: white;
+}
+
+td {
+  padding: 0 15px;
+}
+
+.drop {
+  text-align: center;
+  border: cyan 4px solid;
+}

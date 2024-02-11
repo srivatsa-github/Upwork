@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Compressed CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <!-- Compressed JavaScript -->
+  </head>
+  <body>
+    <div class="title-bar">
+      <span class="title-bar-title">BANK FORM</span>
+    </div>
+
+    <ul class="accordion" data-accordion>
+      <li class="accordion-item is-active" data-accordion-item>
+        <a href="#" class="accordion-title">TYPE OF ACCOUNT</a>
+        <div class="accordion-content" data-tab-content>
+          <fieldset class="cell medium-6">
+            <input id="checkbox1" type="checkbox" /><label for="checkbox1"
+              >CURRENT ACCOUNT</label
+            >
+            <input id="checkbox2" type="checkbox" required /><label
+              for="checkbox2"
+              >SPECIAL SAVINGS ACCOUNT</label
+            >
+          </fieldset>
+
+          <input id="checkbox3" type="checkbox" /><label for="checkbox3">
+            EXCHANGE EARNER'S FOREIGN CURRENCY</label
+          >
+
+          <input id="checkbox4" type="checkbox" /><label for="checkbox4"
+            >OTHERS</label
+          >
+          <input type="text" />
+          <label
+            >IKIT / NON_IKIT<select>
+              <option>IKIT</option>
+              <option>NON-IKIT</option>
+            </select></label
+          >
+          BRANCH
+          <input type="text" />BRANCH CODE<input type="text" />
+        </div>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">APPLICANT DETAILS</a>
+        <div class="accordion-content" data-tab-content>
+          <label for="Name">APPLICANT NAME</label>
+          <input id="Name" type="text" />
+
+          <label for="Date">DATE OF BIRTH</label>
+          <input id="Date" type="date" />
+
+          <label for="Existing">EXISTING ACCOUNT NO</label
+          ><input id="Existing" type="text" />
+          <label for="JOINT">JOINT ACCOUNT NO (if any)</label
+          ><input id="JOINT" type="text" />
+        </div>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">COMMUNICATION ADDRESS</a>
+        <div class="accordion-content" data-tab-content>
+          <label for="ADD">ADDRESS: </label>
+          <input id="ADD" type="text" />
+
+          <label for="CITY">CITY:</label>
+          <input id="CITY" type="text" />
+          <div class="grid-x grid-margin-x">
+            <fieldset class="cell large-6">
+              <label for="STATE">STATE:</label> <input id="STATE" type="text" />
+            </fieldset>
+            <fieldset class="cell large-6">
+              <label for="PIN CODE">PIN CODE:</label>
+              <input id="PIN CODE" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="mobile">MOBILE NO:</label>
+              <input id="mobile" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Telephone">Telephone:</label>
+              <input id="Telephone" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="mobile">MOBILE NO:</label>
+              <input id="mobile" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Telephone">Telephone:</label>
+              <input id="Telephone" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="FAX">FAX:</label>
+              <input id="FAX" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Email">Email:</label>
+              <input id="Email" type="text" />
+            </fieldset>
+          </div>
+        </div>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">REGISTERED/RESIDENCE ADDRESS</a>
+        <div class="accordion-content" data-tab-content>
+          <label for="ADD">ADDRESS: </label>
+          <input id="ADD" type="text" />
+
+          <label for="CITY">CITY:</label>
+          <input id="CITY" type="text" />
+          <div class="grid-x grid-margin-x">
+            <fieldset class="cell large-6">
+              <label for="STATE">STATE:</label> <input id="STATE" type="text" />
+            </fieldset>
+            <fieldset class="cell large-6">
+              <label for="PIN CODE">PIN CODE:</label>
+              <input id="PIN CODE" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="mobile">MOBILE NO:</label>
+              <input id="mobile" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Telephone">Telephone:</label>
+              <input id="Telephone" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="mobile">MOBILE NO:</label>
+              <input id="mobile" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Telephone">Telephone:</label>
+              <input id="Telephone" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="FAX">FAX:</label>
+              <input id="FAX" type="text" />
+            </fieldset>
+
+            <fieldset class="cell large-6">
+              <label for="Email">Email:</label>
+              <input id="Email" type="text" />
+            </fieldset>
+          </div>
+        </div>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">CONSTITUTION</a>
+        <div class="accordion-content" data-tab-content>
+          <label
+            >CONSTITUTION
+            <select>
+              <option value="INDIVIDUAL">INDIVIDUAL</option>
+              <option value="SOLE PROPRETIOR">SOLE PROPRETIOR</option>
+              <option value="HUF">HUF</option>
+              <option value="PARTNERSHIP">PARTNERSHIP</option>
+              <option value="PUBLICLTD.">PUBLICLTD.</option>
+              <option value="TRUST/ASSO./SOC./CLUNS">
+                TRUST/ASSO./SOC./CLUNS
+              </option>
+              <option value="PRIVATELTD.">PRIVATELTD.</option>
+              <option value="SECTION 25">SECTION 25</option>
+              <option value="GOVERNMENT BODY">GOVERNMENT BODY</option>
+            </select>
+          </label>
+        </div>
+      </li>
+      <li class="accordion-item" data-accordion-item>
+        <a href="#" class="accordion-title">TO BE FILLED FOR EEFC ONLY</a>
+        <div class="accordion-content" data-tab-content>
+          <label
+            >STATUS
+            <select>
+              <option value="Unit in SEZ">Unit in SEZ</option>
+              <option value="Unit in STP">Unit in STP</option>
+              <option value="Unit in EHTP">Unit in EHTP</option>
+              <option value="100%EOU">100%EOU</option>
+              <option value="Unit in EPZ">Unit in EPZ</option>
+            </select>
+          </label>
+          <label
+            >CURRENCY
+            <select>
+              <option value="USD">USD</option>
+              <option value="EURO">EURO</option>
+              <option value="GBP">GBP</option>
+              <option value="JPY">JPY</option>
+            </select>
+          </label>
+        </div>
+      </li>
+    </ul>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.6.3/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</html>
